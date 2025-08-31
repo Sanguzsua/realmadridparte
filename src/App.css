@@ -6,6 +6,7 @@ p {
     margin-block: 0;
     text-align: center;
     color:#8C95A6;
+    
 
 }
 h2 {
@@ -29,8 +30,34 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+img{
+  gap: 10px;
+  margin-top: 20px;
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+}
 
-#a img {
-  margin: 0 10px; /* espacio entre imágenes */
+.sponsors-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; 
+  margin-top: 40px; 
+}
+
+.hp{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 30px;
+}
+
+.divider {
+  border-top: 1px solid #e0e0e0;
+  width: 100%;
+  max-width: 800px;
+  margin: 30px 0; 
 }
 
